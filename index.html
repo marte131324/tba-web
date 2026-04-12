@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinas, Baños y Albercas | TBA</title>
+    
+    <!-- CSS Estables -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Typography Functional & Modern: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR CLARO Y FUNCIONAL -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="assets/img/logo.png" alt="TBA Logo">
+            </a>
+            
+            <div class="nav-links">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#quienes-somos" class="nav-link">Quiénes Somos</a>
+                <a href="#galeria" class="nav-link">Portafolio</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="https://vcard-tba.vercel.app/" target="_blank" class="cyber-btn-outline"><i class="fa-solid fa-address-card"></i> VCard VIP</a>
+            </div>
+            
+            <button class="menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU FUNCIONAL -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="close-menu" id="close-menu"><i class="fa-solid fa-xmark"></i></button>
+        <div class="mobile-nav-links">
+            <a href="#inicio" class="m-link">Inicio</a>
+            <a href="#quienes-somos" class="m-link">Quiénes Somos</a>
+            <a href="#maxfil" class="m-link">Sistema MAXFIL</a>
+            <a href="#galeria" class="m-link">Nuestros Trabajos</a>
+            <a href="#contacto" class="m-link">Contacto</a>
+        </div>
+        <div class="mobile-footer">
+            <a href="https://vcard-tba.vercel.app/" target="_blank" class="cyber-btn"><i class="fa-solid fa-address-card"></i> VCard VIP Directa</a>
+        </div>
+    </div>
+
+    <!-- 1. INICIO HERO -->
+    <header class="hero" id="inicio">
+        <!-- Promocional al fondo oscurecido para legibilidad perfecta -->
+        <!-- Cover estático optimizado -->
+        <img class="hero-video" src="assets/img/cover.png" alt="TBA Cover" style="width: 100%; height: 100%; object-fit: cover; position: absolute; z-index: 0;">
+        <div class="hero-mask"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-headline reveal">Tinas, Baños <br>y Albercas</h1>
+            <p class="hero-subheadline reveal">El agua y sus aplicaciones.</p>
+            <p class="hero-description reveal">
+                Más de 30 años liderando el diseño, desarrollo y mantenimiento de sistemas hidráulicos 
+                para el ramo hotelero, residencial e industrial.
+            </p>
+            
+            <div class="hero-buttons reveal">
+                <a href="#quienes-somos" class="cyber-btn">Conócenos</a>
+                <a href="#maxfil" class="cyber-btn-outline">Tecnología MAXFIL</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. QUIÉNES SOMOS + CEO -->
+    <section class="section base-bg" id="quienes-somos">
+        <div class="container wrapper-split">
+            <div class="col-text reveal-left">
+                <h4 class="brand-tag">NUESTRA HISTORIA</h4>
+                <h2 class="section-title">Quiénes Somos</h2>
+                <div class="divider"></div>
+                
+                <p class="paragraph">
+                    Somos una organización comercial fundada el 28 de Octubre de 1991 y que con sus más de 20 años trabajando, sigue llenando en nuestro mercado una especialidad: <strong>"el agua y sus aplicaciones"</strong>, tanto en el ramo hotelero, residencial, industrial, etc.
+                </p>
+                
+                <div class="ceo-profile mt-4">
+                    <img src="assets/img/profile.png" alt="Salvador Ibarguen">
+                    <div class="ceo-data">
+                        <h4 class="text-cyan text-bold">Salvador Ibargüen Hernández</h4>
+                        <p>CEO</p>
+                        <p class="text-small">Inventor y Visionario</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-image reveal-right">
+                <img src="assets/img/cover.png" alt="Instalación" class="round-img shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SISTEMA MAXFIL ECOLOGICA -->
+    <section class="section section-maxfil" id="maxfil">
+        <div class="container wrapper-split reversed">
+            <div class="col-text reveal-right maxfil-box">
+                <h4 class="brand-tag text-dark">INNOVACIÓN PROPIA</h4>
+                <h2 class="section-title text-dark">MAXFIL® <br>Sistema ecológico de filtración.</h2>
+                <div class="divider divider-dark"></div>
+                <p class="paragraph text-dark">
+                    Nuestra invención patentada. Creamos un sistema hidrodinámico superior que desplaza a las antiguas instalaciones con enormes cuartos de máquinas, obteniendo retención imperceptible y cero desperdicio de agua en hoteles y corporativos.
+                </p>
+                <a href="https://maxfil.mx/" target="_blank" class="maxfil-btn mt-4">Ir a sitio oficial MAXFIL<i class="fa-solid fa-arrow-right ml-2"></i></a>
+            </div>
+            <div class="col-image reveal-left">
+                <video src="assets/maxfil_1.mp4" autoplay loop muted playsinline class="video-preview round-img"></video>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. GALERÍA / NUESTROS TRABAJOS -->
+    <section class="section base-bg" id="galeria">
+        <div class="container container-center reveal-up">
+            <h4 class="brand-tag text-center">PORTAFOLIO</h4>
+            <h2 class="section-title text-center">Nuestros Trabajos</h2>
+            <div class="divider mx-auto"></div>
+            <p class="paragraph text-center mx-auto mw-700">
+                A continuación encontrarás una parte de nuestro trabajo diseñando, desarrollando y manteniendo tus equipos y albercas de primer nivel.
+            </p>
+        </div>
+        
+        <div class="container mt-5">
+            <div class="gallery-grid">
+                <div class="gallery-card reveal-up" style="transition-delay: 0.1s;">
+                    <img src="assets/img/ANTES.jpg" alt="Antes en construcción">
+                    <div class="gallery-content">
+                        <h3>Etapa Inicial / Obra</h3>
+                        <p>Desarrollo hidráulico en construcción</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card reveal-up" style="transition-delay: 0.2s;">
+                    <img src="assets/img/DESPUES.jpg" alt="Resultado Final">
+                    <div class="gallery-content">
+                        <h3 class="text-cyan">Proyecto Finalizado</h3>
+                        <p>Estética arquitectónica con agua cristalina</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card reveal-up" style="transition-delay: 0.3s;">
+                    <img src="assets/img/DESPUES_NOCHE.jpg" alt="Iluminación Nocturna">
+                    <div class="gallery-content">
+                        <h3>Iluminación</h3>
+                        <p>Iluminación, diseño y acabados nocturnos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. UBICACIONES / DONDE ESTAMOS -->
+    <section class="section dark-bg" id="contacto">
+        <div class="container container-center reveal-up">
+            <h4 class="brand-tag text-center">SUCURSALES</h4>
+            <h2 class="section-title text-center">Dónde estamos</h2>
+            <div class="divider mx-auto"></div>
+            <p class="paragraph text-center mx-auto mw-700">
+                Visítanos en nuestra sucursal matriz en Veracruz y nuestras delegaciones especializadas.
+            </p>
+        </div>
+        
+        <div class="container mt-5">
+            <div class="locations-grid">
+                <!-- Veracruz -->
+                <div class="loc-card border-top-cyan reveal-up">
+                    <div class="loc-header">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <h3>Tinas, Baños y Albercas</h3>
+                    </div>
+                    <div class="loc-body">
+                        <p>Delfino Valenzuela No.572<br>Fracc. Reforma C.P. 91919<br>Veracruz, Ver.</p>
+                        <ul>
+                            <li><strong>T: </strong>(229) 937.51.73</li>
+                            <li><strong>E: </strong>tinasbanosyalbercas@gmail.com</li>
+                            <li><strong>E: </strong>tbyalbercas@yahoo.es</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- T&T Sistemas de Agua -->
+                <div class="loc-card reveal-up">
+                    <div class="loc-header">
+                        <i class="fa-solid fa-fan"></i>
+                        <h3>T&T Sistemas de Agua</h3>
+                    </div>
+                    <div class="loc-body">
+                        <p>Equipos y sistemas especialistas.<br>Cancún, Q.R.</p>
+                        <ul>
+                            <li><strong>T: </strong>(998) 227 3809</li>
+                            <li><strong>E: </strong>proyectos@tytsistemasdeagua.com</li>
+                            <li><strong>W: </strong><a href="http://www.tytsistemasdeagua.com" target="_blank">www.tytsistemasdeagua.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Acuamaxfil (Ciudad Mujeres) -->
+                <div class="loc-card reveal-up">
+                    <div class="loc-header">
+                        <i class="fa-solid fa-water"></i>
+                        <h3>Asesorías, Construcciones, Urbanizaciones y Albercas</h3>
+                    </div>
+                    <div class="loc-body">
+                        <p>Ciudad Mujeres, Q.R.</p>
+                        <ul>
+                            <li><strong>T: </strong>(998) 578 1617</li>
+                            <li><strong>E: </strong>acuamaxfil@hotmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Riviera Maya -->
+                <div class="loc-card reveal-up">
+                    <div class="loc-header">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                        <h3>Riviera Maya</h3>
+                    </div>
+                    <div class="loc-body">
+                        <p>Desarrollo y mantenimiento en toda la Riviera Maya.</p>
+                        <ul>
+                            <li><strong>T: </strong>(984) 109.31.28</li>
+                            <li><strong>T: </strong>(984) 17.85.247</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="https://wa.me/522282393575?text=Deseo%20información%20sobre%20sus%20servicios" target="_blank" class="cyber-btn" style="padding: 15px 40px; font-size: 1.1rem;"><i class="fa-brands fa-whatsapp"></i> Envíanos un WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="f-col">
+                <img src="assets/img/logo.png" alt="TBA Logo" width="160" class="mb-3">
+                <p>La especialidad en el agua y sus aplicaciones desde 1991.</p>
+                <div class="social-icons mt-3">
+                    <a href="https://www.facebook.com/tinasbanos.albercas" target="_blank"><i class="fa-brands fa-facebook"></i> Síguenos en Facebook</a>
+                </div>
+            </div>
+            
+            <div class="f-col">
+                <h4>Nuestros Enlaces</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="https://maxfil.mx/" target="_blank">Sustentabilidad MAXFIL</a></li>
+                </ul>
+            </div>
+            
+            <div class="f-col">
+                <h4>Contacto Primario</h4>
+                <ul>
+                    <li>tinasbanosyalbercas@gmail.com</li>
+                    <li>tbyalbercas@yahoo.es</li>
+                    <li>Veracruz: (229) 937.51.73</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Tinas, Baños y Albercas. Todos los derechos reservados. <span class="text-cyan">| Sistema Maxfil</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Lite (No lag) -->
+    <script src="js/app.js"></script>
+
+<!-- TREZE SIGNATURE -->
+<a href="https://wa.me/522214092478?text=Hola%20Treze%20Labs%2C%20me%20gustar%C3%ADa%20solicitar%20el%20desarrollo%20de%20un%20sistema%20profesional." target="_blank" style="display: flex; justify-content: center; text-decoration: none; margin-top: 24px; margin-bottom: 24px; opacity: 0.6; transition: opacity 0.3s ease;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.6'">
+    <img src="assets/footer.png" alt="Ingeniería Digital por Treze Labs" style="max-height: 38px; object-fit: contain; filter: brightness(0);">
+</a>
+
+</body>
+</html>
